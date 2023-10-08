@@ -1,0 +1,528 @@
+#bg1{
+  background-image: url(../picture/bs\ \(15\).jpg)
+}
+/* start img  slider  */
+/* start img  slider  */
+*{
+    scroll-behavior: smooth;
+  }
+  #body2{
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 200px;
+    background: black;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350PX ;
+    height: 200px;
+     background: black;
+     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+  }
+  
+  /* end img  slider  */
+  /* end img  slider  */
+
+
+
+/* TEXT ANI*/
+
+#textanim{
+  width: 100%;
+  box-sizing: border-box;
+  font-family: font1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
+
+
+#heading{
+  position: relative;
+  font-size: 60px;
+  color:#011d01;
+  -webkit-text-stroke: 0.4vh #011d01;
+  text-decoration: underline;
+}
+
+#heading::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #cc8800;
+  -webkit-text-stroke: 0vw #011d01;
+  border-right: px solid #cc8800;
+  overflow: hidden;
+  animation: animtext 6s linear infinite;
+}
+
+@keyframes animtext{
+   0%
+   {
+     width: 0;
+   }
+  70%
+   {
+     width: 100%;
+   }
+  
+}
+
+
+
+
+
+
+
+
+
+#heading1{
+  position: relative;
+  font-size: 60px;
+  color:#252839;
+  -webkit-text-stroke: 0.3vh #011d01;
+  text-decoration: underline;
+}
+
+#heading1::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #cc8800;
+  -webkit-text-stroke: 0vw #011d01;
+  border-right: 2px solid #cc8800;
+  overflow: hidden;
+  animation: animtext 6s linear infinite;
+}
+
+@keyframes animtext{
+   0%
+   {
+     width: 0;
+   }
+  70%
+   {
+     width: 100%;
+   }
+  
+}
+
+#heading2{
+  position: relative;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+#heading2::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #cc8800;
+  border-right: 2px solid #cc8800;
+  overflow: hidden;
+  animation: animtext 6s linear infinite;
+}
+
+@keyframes animtext{
+   0%
+   {
+     width: 0;
+   }
+  70%
+   {
+     width: 100%;
+   }
+  
+}
+
+
+#heading3{
+  position: relative;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+#heading3::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #cc8800;
+  border-right: 2px solid #cc8800;
+  overflow: hidden;
+  animation: animtext 6s linear infinite;
+}
+
+@keyframes animtext{
+   0%
+   {
+     width: 0;
+   }
+  70%
+   {
+     width: 100%;
+   }
+  
+}
+
+
+#heading4{
+  position: relative;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+#heading4::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #cc8800;
+  -webkit-text-stroke: 0vw #011d01;
+  border-right: 2px solid #cc8800;
+  overflow: hidden;
+  animation: animtext 6s linear infinite;
+}
+
+@keyframes animtext{
+   0%
+   {
+     width: 0;
+   }
+  70%
+   {
+     width: 100%;
+   }
+  
+}
+
+/* end TEXT ANI*/
+
+ 
+
+  
+ /*----------start----------whatapp----------------->
+ ----------start--------whatapp----------------->
+ -----------start----------whatapp----------------->*/
+ #h{
+  width: 50px;
+  height: 50px;
+  bottom: 70px;
+  right: 50px;
+  position: fixed;
+  color: rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #999;
+}
+#ht{
+  width: 60px;
+  height: 60px;
+}
+
+/*start------------------footer*/
+.footer_body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #ede7f6;
+  }
+  
+  #Footer_contFluid{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: rgba(13, 27, 1, 0.979);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #Footer_contFluid
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  
+  #about{
+    width: 40%;
+    margin-right: 10px;
+  }
+  
+  #footer_head{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  #footer_head:before{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+    width: 45px;
+    height: 3px;
+    background-color: #cc8800;
+  }
+  
+  #footer_det{
+    color: #999;
+  }
+  
+  .sci{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .sci li{
+    list-style: none;
+  
+  }
+  
+  .sci li a
+  {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgba(23, 46, 1, 0.979);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .sci li a:hover{
+    background: #cc8800;
+  }
+  
+  .sci li a .fa
+  {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .quicklinks{
+    position: relative;
+    width: 100%;
+  }
+  
+  .quicklinks ul li
+  {
+    list-style: none;    
+  }
+  
+  .quicklinks ul li a
+  {
+    color: #999;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+  }
+  
+  .quicklinks ul li a:hover
+  {
+    color: #cc8800;
+  }
+  
+  .contact{
+    width: calc(100% - 30px);
+    margin-right: 0 !important;
+  }
+  
+  .contact .info{
+    position: relative;
+  }
+  
+  .contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+  }
+  
+  .contact .info li span:nth-child(1)
+  {
+    color: #cc8800;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .contact .info li span 
+  {
+    color: rgb(177, 175, 175);
+  }
+  
+  .contact .info li a
+  {
+    color: rgb(199, 197, 197);
+  }
+  
+  .contact .info li a:hover
+  {
+    color: #cc8800;
+  }
+  
+  .copyrightText
+  {
+    width: 100%;
+    background-color: rgba(23, 44, 3, 0.979);
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+  }
+   /*end------------------footer*/
+    
+
+/*-----------------------------------------navigation--------------------------------*/  
+/*start------------------navigation*/
+
+nav{
+  text-align: center;
+  font-weight: 600;
+}
+#bb1{
+  margin-left: 45%;
+}
+#png{
+  margin-left: 60%;
+  align-items: left,top;
+  height: 50px;
+  width: 200px;
+}
+#h4{
+  color: #cc8800;
+}
+  .navbar-expand-lg{
+      background-color: rgba(16, 32, 0, 0.863);
+  }
+  .nav-link{
+      margin-left: 5px;
+      margin-right: px;
+      color: #cc8800;
+      align-items: center;
+      justify-content: center;
+  }
+  #head1{
+      font-size: 22px; 
+      margin-right: 7px;
+      margin-left: 4px;
+      color: #cc8800;
+  }
+
+    
+.navbar-nav li:hover>ul.dropdown-menu{
+  display: block;
+}
+
+
+  
+
+ /*end------------------navigation*/
+
+ #bg1
+ {
+     background-image:url(.);
+     
+     
+ }
+ #bg2{
+     align-items: center;
+     width: 80%;
+     height: 70%;
+    margin-left: 13%;
+ }
+ #image
+ {
+     height: 600px;
+     width: 100%;
+     background-repeat: no-repeat;
+ }
+ #p1{
+     text-align: center;
+     font-family:'Roboto', sans-serif;
+     font-size: 30px;
+     font-family: font1;
+     color: 	#c98c12e9;
+     font-weight: bold;
+     
+ }
+ #p5
+ {
+     text-align: center;
+ }
+ 
+     
+ 
+ 
+     #p2{
+         font-weight: bold;
+     font-size: 14px;
+     text-decoration: underline goldenrod;
+     line-height: -2.0%;
+ 
+     }
+     #p4{
+         text-align: center;
+         font-family:'Roboto', sans-serif;
+         font-size: 60px;
+         font-family: font1;
+         color: 	#c98c12e9;
+         text-decoration: underline goldenrod;
+         line-height: -2.0%;
+     }
+     #p6{
+       text-align: center;
+       font-family:'Roboto', sans-serif;
+       font-size: 30px;
+       font-family: font1;
+       color: 	black;
+       text-decoration: underline goldenrod;
+       line-height: -2.0%;
+   }
+   #p7{
+     text-align: center;
+     font-family:'Roboto', sans-serif;
+     font-size: 35px;
+     font-family: font1;
+     color: 	black;
+   }
+ 
